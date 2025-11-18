@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inventory Services Suite</title>
-</head>
-<body>
     
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Link to compiled CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Inventory Services Suite</title>
+
+</head>
+
+<body>
+  <h1>Inventory Management System</h1>
+
+  <div class="container">
+    <!-- Insert Item -->
+    <section>
+      <h2>Insert Item</h2>
+      <input id="itemId" placeholder="Item ID">
+      <input id="itemName" placeholder="Item Name">
+      <input id="itemQty" placeholder="Quantity">
+      <input id="itemPrice" placeholder="Price per Item">
+      <button id="insertBtn">Insert</button>
+    </section>
+
+    <!-- Search Item -->
+    <section>
+      <h2>Search Item</h2>
+      <input id="searchId" placeholder="Item ID">
+      <button id="searchBtn">Search</button>
+    </section>
+
+    <!-- Update Item -->
+    <section>
+      <h2>Update Quantity</h2>
+      <input id="updateId" placeholder="Item ID">
+      <input id="updateQty" placeholder="New Quantity">
+      <button id="updateBtn">Update</button>
+    </section>
+
+    <!-- Display Items -->
+    <section>
+      <h2>Display All Items</h2>
+      <button id="displayBtn">Show Items</button>
+    </section>
+  </div>
+
+  <!-- Link external JS -->
+  <script src="script.js"></script>
 </body>
 </html>
